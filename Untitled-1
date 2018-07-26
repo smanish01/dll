@@ -1,0 +1,16 @@
+rp()
+.then((body)=>{
+    return body
+})
+.then((bd)=>{
+    return rp()
+    .then(()=>{
+        return 
+    })
+})
+.then((out)=>{
+    output(null,out)
+})
+.catch(err=>{
+    
+})
