@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //test12
+=======
+//submaster test
+>>>>>>> b76530a7879807c48a93c414415f2fe511bac34a
 class dll {
   constructor () {
     this.head = new node(null);
@@ -30,7 +34,7 @@ class dll {
     header.next = n;
     
   }
-  
+
   display()
   {
     var header = this.head;
